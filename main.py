@@ -6,6 +6,10 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 import numpy as np
 
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+
 ps = PorterStemmer()
 
 
